@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "copper_rage",
+  "version": "${version}",
+
+  "name": "Copper Rage",
+  "description": "A viking inspired mod making copper more useful.",
+  "authors": [
+    "mangomeep"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/mangomeep/fabric_mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mangomeep.copper_rage.CopperRage"
+    ],
+    "client": [
+      "net.mangomeep.copper_rage.CopperRageClient"
+    ]
+  },
+  "mixins": [
+    "copper_rage.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
