@@ -1,6 +1,8 @@
 package net.mangomeep.copper_rage;
 
 import net.fabricmc.api.ModInitializer;
+import net.mangomeep.copper_rage.item.ModItems;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,5 +12,9 @@ public class CopperRage implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		
+		ModItems.registerModItems();
+		
+		
 	}
 }

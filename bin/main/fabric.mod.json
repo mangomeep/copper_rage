@@ -8,10 +8,6 @@
   "authors": [
     "mangomeep"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/mangomeep/fabric_mod"
-  },
 
   "license": "MIT",
   "icon": "assets/modid/icon.png",
